@@ -1,4 +1,4 @@
-import { convertPLNToUSD } from './../convertPLNToUSD';
+import { convertPLNToUSD } from '../convertPLNToUSD';
 
 describe('ConvertPLNtoUSD', () => {
   it('should return proper value when good input', () => {
