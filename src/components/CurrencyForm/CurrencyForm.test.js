@@ -24,8 +24,6 @@ describe('Component CurrencyForm', () => {
     // find “convert” button
     const submitButton = screen.getByText('Convert');
 
-
-
     // find fields elems
     const amountField = screen.getByTestId('amount');
     const fromField = screen.getByTestId('from-select');
